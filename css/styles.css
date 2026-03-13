@@ -393,7 +393,7 @@ a {
     background-color: #31d0aa;
 }
 .footer-subscribe-container {
-    margin-left: 80px;
+    margin-left: auto;
 }
 .footer-text-subscribe {
     font-weight: 500;
@@ -453,7 +453,8 @@ a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-btn:hover {
+.footer-btn:hover,
+.footer-btn:focus {
     background-color: #31d0aa;
 }
 .footer-subscribe-icon {
@@ -520,7 +521,7 @@ a {
     border-width: 1px;
     background-color: #E7E9FC;
     border-color: rgba(0, 0, 0, 0.1);
-    border-style: none;
+    border-style: solid;
     display: flex;
     padding: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -639,6 +640,7 @@ a {
 .feedback-toggler-icon {
     opacity: 0;
     transition: opacity 150ms ease-in;
+    fill:#f4f4fd
 }
 
 .feedback-checkbox:checked+.feedback-toggler>.feedback-toggler-icon {
