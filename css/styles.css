@@ -362,7 +362,6 @@ a {
 }
 .footer-social-container {
     width: 208px;
-    height: 40px;
     margin-left: 120px;
 }
 .footer-container {
@@ -416,6 +415,7 @@ a {
     border-radius: 4px;
     width: 264px;
     height: 40px;
+    padding: 8px 16px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -547,7 +547,9 @@ a {
 .feedback-wrapper {
     margin-bottom: 8px;
 }
-
+.feedback-wrapper-comment {
+    margin-bottom: 16px;
+}
 .feedback-label {
     display: block;
     margin-bottom: 4px;
